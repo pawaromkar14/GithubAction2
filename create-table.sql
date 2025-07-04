@@ -8,6 +8,6 @@ CREATE TABLE students(
 );
 
 INSERT INTO students (name, marks) VALUES
-("Omkar", 90)
-("Aditya", 100)
-("Pranav", 110)
+("Omkar", "90")
+("Aditya", "100")
+("Pranav", "110")
