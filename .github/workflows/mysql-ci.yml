@@ -33,5 +33,5 @@ jobs:
       - name: Run SQL commands
         run: |
           sudo apt-get install -y mysql-client
-          mysql -h 127.0.0.1 -P 3306 -u root -proot < create_tables.sql
+          mysql -h 127.0.0.1 -P 3306 -u root -proot < create-table.sql
           mysql -h 127.0.0.1 -P 3306 -u root -proot -e "USE demo; SELECT * FROM students;"
